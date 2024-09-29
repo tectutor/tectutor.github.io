@@ -1,0 +1,41 @@
+*{  margin: 0;
+    font-family: 'popins','sans-serif';}
+html{
+    font-size: 19px;
+    background-color: #333;
+    color: whitesmoke;
+}
+body{
+    line-height: 1.5;
+}
+main{
+    text-indent: 31.5%;
+}
+header{
+    background-color: darkcyan;
+    padding: 0.09rem;
+    font-size: 36px;
+    text-align: center;
+    }
+.headerp2{
+    color: #71bdbd;
+    }
+a{color: aliceblue;}
+a:visited{color: lightgray;}
+a:hover, a:active{color: #eee;}
+
+.picture-size{
+    display: block;
+    transition: transform 0.3s ease;
+    width: 500;
+    height: 300;
+    margin-left: auto;
+    margin-right: auto;
+}
+.picture-size:hover{
+    transform: scale(1.7);
+}
+h1{
+    font-size: 28px;
+    margin-left: 117px;
+}
